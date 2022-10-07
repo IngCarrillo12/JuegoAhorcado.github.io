@@ -1,0 +1,77 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 50px 10px 20px;
+}
+
+.button {
+    font-family: inherit;
+    background: #2c0b8e;
+    color: white;
+    font-size: 15px;
+    padding: 0.35em 0;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.5em;
+    padding-left: 3em;
+    padding-right: 0.7em;
+}
+
+.button .icon {
+    background: #fff;
+    margin-right: 1em;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.5em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.3em;
+    transition: all .7s;
+} 
+.shere {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 4px;
+}
+
+.button:hover .icon {
+    width: calc(100% - 0.6rem);
+} 
+
+.button:hover .shere {
+    width: calc(100% - 0.6rem);
+    display: none;
+} 
+
+.button .icon-shere {
+    color:#2c0b8e;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 4px;
+    display: none;
+}
+
+.button:hover .icon .icon-shere {
+    display: flex;
+}
+
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo span{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+}

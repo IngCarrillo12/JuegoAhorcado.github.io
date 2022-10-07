@@ -1,0 +1,18 @@
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.btnIniciarGame{
+    margin-bottom: 20px !important;
+}
+.btnAgregarPalabra{
+    height: 80px !important;
+    padding: 2px !important;
+    font-size: 25px !important;
+}
+
+

@@ -1,0 +1,34 @@
+
+.contenedor{
+    flex-direction: column;
+}
+
+.inputPalabra{
+    width: auto;
+    height: 80px;
+    margin: 4em 0px;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    outline: none;
+    color: blue;
+    text-align: center;
+    background:none;
+}
+.inputPalabra::placeholder{
+    color: #000;
+}
+.btnGuardar{
+    font-size: 26px !important;
+    width: 400px !important;
+} 
+
+#Alert{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+
+}
+#Alert img{
+    padding-right: 10px;
+}

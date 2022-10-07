@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'SF Pixelate Shaded', sans-serif;
+}
+.canvas{
+    width: 100%;
+    height: 400px;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+.btnGlobals{
+    background: #3d348b;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: -3px 9px #2c0b8e;
+    transition: all 0.3s ease;
+    height: 70px;
+    font-size: 30px;
+    width: 332px;
+    border-radius: 25px;
+    margin: 0 6px;
+}
+.btnGlobals:hover{
+    box-shadow: -1px 3px #2c0b8e;
+    background: #fff;
+    color: #2c0b8e;
+    border: 1px solid #2c0b8e;
+}
+.btnGlobals:active{
+    box-shadow: 0 0 #2c0b8e;
+}
+
+
+/* MEDIA QUERYS */
+@media screen and (min-width:760px) and (min-height:1020px){
+    header{
+        height: 50px;
+    }
+    .button {
+        height: 4em;
+        width: 200px;
+    }
+    .button .icon {
+        height: 3em;
+        width: 3em;
+    } 
+    .button .icon-shere {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    .button p{
+        margin-left: 15px;
+        font-size: 17px;
+    }
+
+    .btnGlobals{
+        height: 100px;
+        width: 400px;
+        margin: 0 4px;
+    }
+}
+
+    @media screen and (max-width:760px) and (max-height:1020px){
+        
+        header{
+            padding: 10px 15px 10px 20px;
+        }
+        .button {
+            height: 2.5em;
+            width: 140px;
+        }
+        .button .icon {
+            height: 1.9em;
+            width: 2.3em;
+        } 
+        .button .icon-shere {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        .button p{
+            font-size: 12px;
+        }
+        .logo img{
+            width: 30px;
+            height: 30px;
+        }
+        .logo span{
+            font-size: 17px;
+        }
+        .inputPalabra{
+            width:100%;
+            font-size: 20px;
+            margin: 6em 0px;
+        }
+        #Alert{
+            font-size: 15px;
+        }
+        .btnGlobals{
+            height: 70px;
+            font-size: 20px ;
+            width:170px ;
+            margin: 0 3px;
+        }
+        .btnAgregarPalabra,.btnIniciarGame{
+            width: 300px;
+            font-size: 30px;
+        }
+        
+}
+/* gitHub: IngCarrillo12 linkedin: Juan Elias Carrillo Eslait*/
+
